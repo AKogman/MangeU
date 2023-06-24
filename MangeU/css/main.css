@@ -1,0 +1,23 @@
+
+  
+  .container {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  html, body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*e_Loq49BI4WmN7o9ItTADg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    flex: 1;
+}

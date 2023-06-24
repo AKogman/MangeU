@@ -1,0 +1,39 @@
+line 39 till 48
+  
+        <!-- <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Description</th>
+              <th>Completed</th>
+            </tr>
+          </thead>
+          <tbody id="tasks"></tbody>
+        </table> -->
+
+line 58 till 71
+
+    <!--  -->
+    <!-- <div class="container"> -->
+        <!-- <table class="table"> -->
+         <!-- table class  -->
+            <!-- <thead> -->
+            <!-- <tr> -->
+              <!-- <th>Id</th> -->
+              <!-- <th>Description</th> -->
+              <!-- <th>Completed</th> -->
+            <!-- </tr> -->
+          <!-- </thead> -->
+          <!-- <tbody id="tasks"></tbody> -->
+        <!-- </table> -->
+      <!-- </div> -->
+
+js
+function showTasksInLists() {
+  for (var _i = 0, _a = manager.tasks; _i < _a.length; _i++) {
+      var task = _a[_i];
+      if (task.completed == false) {
+          document.getElementById("active").innerHTML += '';
+      }
+  }
+}
